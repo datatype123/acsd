@@ -1,0 +1,38 @@
+[
+    {
+      id: 1,
+      name: "Bản vẽ nhà A",
+      pdfUrl: "/path/to/design1.pdf",
+      createdAt: "2025-05-19",
+      author: "John Doe",
+      details: [
+        {
+          id: "d1",
+          name: "Cửa chính",
+          description: "Cửa gỗ, kích thước 2m x 1m",
+          coordinates: { x: 100, y: 100, width: 50, height: 50 },
+        },
+        {
+          id: "d2",
+          name: "Cửa sổ phòng khách",
+          description: "Kính cường lực, 1.5m x 1m",
+          coordinates: { x: 200, y: 200, width: 50, height: 50 },
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Bản vẽ nhà B",
+      pdfUrl: "/path/to/design2.pdf",
+      createdAt: "2025-05-18",
+      author: "Jane Smith",
+      details: [
+        {
+          id: "d3",
+          name: "Mái nhà",
+          description: "Ngói đỏ, diện tích 100m2",
+          coordinates: { x: 150, y: 150, width: 60, height: 60 },
+        },
+      ],
+    },
+  ]
